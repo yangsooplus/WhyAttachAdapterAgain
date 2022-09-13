@@ -1,11 +1,6 @@
 # WhyAttachAdapterAgain
 Fragment의 ListView 데이터 갱신 후 Adapter를 다시 붙여야만 갱신이 된다는 글을 보고 의문을 가져 이유를 찾아보았다. 
 
-⬇ 노션에서 보기
-
-
-https://tar-jonquil-9c2.notion.site/Fragment-ListView-Adapter-d10591c847f749f9b2e17bbbf1857955
-
 
 
 -----------------------------------------------------
@@ -257,6 +252,9 @@ BottomNavigation, Fragment를 추가하고 매번 생성하던 listData와 listA
     }
     ```
     
+![why1](https://user-images.githubusercontent.com/69582122/189985633-fe718173-3c80-4310-9bf5-e20c4b1fec99.gif)
+![why2](https://user-images.githubusercontent.com/69582122/189985641-f053cee1-3319-4995-ba47-3409928eedc0.gif)
+![why3](https://user-images.githubusercontent.com/69582122/189985647-90e2902e-c895-4833-a513-a1b3074d1ea8.gif)
 
 **새 어댑터 새 리스트**
 
@@ -362,7 +360,7 @@ override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
     }
 ```
 
-![Untitled](%E1%84%8B%E1%85%AB%20Fragment%20ListView%E1%84%8B%E1%85%A6%20Adapter%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%84%E1%85%A9%20%E1%84%87%E1%85%AE%E1%87%80%E1%84%8B%E1%85%A7%E1%84%8B%E1%85%A3%E1%84%92%E1%85%A2%20158cf1918fa74e38bc34c82749348fdc/Untitled.png)
+
 
 여기서 끝이 아니다. 이렇게 해도 동작한다. 쇼킹~
 
